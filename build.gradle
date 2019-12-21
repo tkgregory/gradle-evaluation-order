@@ -3,8 +3,6 @@ import com.tom.SmallTalkPlugin
 group 'com.tom'
 version '1.0-SNAPSHOT'
 
-evaluationDependsOnChildren()
-
 apply plugin: SmallTalkPlugin
 
 smallTalk {
