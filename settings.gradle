@@ -1,3 +1,5 @@
 rootProject.name = 'gradle-evaluation-order'
 
 include 'sub-project-1', 'sub-project-2'
+
+println 'This is executed during the initialization phase.'
