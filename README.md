@@ -3,14 +3,20 @@ at [tomgregory.com](https://tomgregory.com/gradle-evaluation-order-for-multi-pro
 
 ## Running
 
-1. Demonstrates the configuration of sub-projects from the parent *build.gradle*
+
+1. See all the configured projects:
+
+`./gradlew projects`
+
+
+2. Demonstrates the configuration of sub-projects from the parent *build.gradle*
 and also from sub-project *build.gradle* files:
 
 `./gradlew hello goodbye`
 
 (also demonstrates the Gradle lifecycle phases)
 
-2. Demonstrates using *afterEvaluate* to dynamically configure a task 
+3. Demonstrates using *afterEvaluate* to dynamically configure a task 
 name based on a configuration property:
 
 `./gradlew makeSmallTalkToTom`
