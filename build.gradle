@@ -1,0 +1,19 @@
+import com.tom.SmallTalkPlugin
+
+group 'com.tom'
+version '1.0-SNAPSHOT'
+
+evaluationDependsOnChildren()
+
+apply plugin: SmallTalkPlugin
+
+smallTalk {
+    recipient = 'Tom'
+}
+
+allprojects {
+    task('hello').doLast {
+        println "I'm $project.name"
+    }
+    println "This is executed during the $project.name configuration phase."
+}

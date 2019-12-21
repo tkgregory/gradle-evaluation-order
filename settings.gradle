@@ -1,0 +1,3 @@
+rootProject.name = 'gradle-evaluation-order'
+
+include 'sub-project-1', 'sub-project-2'

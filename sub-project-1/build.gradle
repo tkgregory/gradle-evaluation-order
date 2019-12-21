@@ -1,0 +1,5 @@
+task('goodbye').doLast {
+    println "Goodbye from $project.name"
+}
+
+println "This is executed during the $project.name configuration phase."
