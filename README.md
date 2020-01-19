@@ -1,4 +1,4 @@
-This repository is an example to go along with the article 
+This repository is an example to go along with this [YouTube tutorial video](https://youtu.be/DY6bn14Gu58) and article 
 at [tomgregory.com](https://tomgregory.com/gradle-evaluation-order-for-multi-project-builds).
 
 ## Running
