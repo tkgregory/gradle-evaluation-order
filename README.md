@@ -20,3 +20,6 @@ and also from sub-project *build.gradle* files:
 name based on a configuration property:
 
 `./gradlew makeSmallTalkToTom`
+
+## Need Gradle support?
+Contact me if you need help with Gradle at [tom@tomgregory.com](mailto:tom@tomgregory.com).
